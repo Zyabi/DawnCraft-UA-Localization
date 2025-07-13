@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Вас цікавить завдання зі знищення?"
+    }
+  }
+}

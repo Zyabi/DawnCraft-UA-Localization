@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Нездійсненне завдання!"
+    },
+    "description": {
+      "text": "Я хочу, щоб ви виконали 2 завдання: Отримати благословення від благородного сонячного птаха і викликати снігового голема-мутанта. Тоді я розгляну питання про передачу тобі Агонії."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Чудово! Візьміть його. Його колишній носій потрапив до рук лютих звірів. Нехай твоя доля розійдеться з його."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "mutantmonsters:frosty_the_snow_golem"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/sunbird_blessing"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:agony"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

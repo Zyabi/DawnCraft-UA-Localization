@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "І що?"
+    },
+    "description": {
+      "text": "Я можу навчити вас умінню - Примарне сходження за 25 смарагдів. Досить вигідна пропозиція, як на мене!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Тримай, шукач пригод! Просто стрибни двічі, щоб використати вміння."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 25
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"epicfight:phantom_ascent\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

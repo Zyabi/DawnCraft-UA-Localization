@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "І що?"
+    },
+    "description": {
+      "text": "Я можу навчити вас майстерності - Ендер Степ за 30 смарагдів. Що скажеш?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Це вміння передається від легендарних істот - Близнюків. Зрештою, їх можна знайти, принаймні, я так чув..."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 30
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"wom:ender_step\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "quest_giver:quest_0086_02b",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Контракт на знищення"
+    },
+    "description": {
+      "text": "Будь ласка, поверніться, коли закінчите виконання контракту на знищення - $(red)Вбити 5 мародерів$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Тоді... Здається, час настав. Мародери прийшли. Товаришу, я викував цей меч саме для таких випадків. Будь ласка, використайте його на благо і допоможіть нам. Всі наші життя залежать від тебе."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:pillager",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/effect give @p minecraft:bad_omen 10 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/give @p epicfight:iron_greatsword{Enchantments:[{id:\"apotheosis:bane_of_illagers\",lvl:3}]}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

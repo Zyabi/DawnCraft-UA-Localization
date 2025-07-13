@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Пане!"
+    },
+    "description": {
+      "text": "Вітаю. Не хочу вас турбувати, але чи не могли б ви мені допомогти?"
+    }
+  }
+}

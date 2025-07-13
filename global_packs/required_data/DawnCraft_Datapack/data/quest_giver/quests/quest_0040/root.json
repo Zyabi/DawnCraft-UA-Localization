@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Привіт!"
+    },
+    "description": {
+      "text": "Агов, шукач пригод! Маємо для тебе виклик, ти готовий?"
+    }
+  }
+}

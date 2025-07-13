@@ -1,0 +1,34 @@
+{
+  "parent": "quest_giver:quest_0048_03b",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "І що?"
+    },
+    "description": {
+      "text": "Убий трьох звичайних сільських охоронців і повертайся до мене. Не показуйся нікому на очі. Якщо твоя репутація стане занадто низькою, я не буду з тобою розмовляти... З очевидних причин."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Хахаха... Ти мерзотник. Ось, ось як ти будеш ним користуватися. Залишайся пустотливим."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "guardvillagers:guard",
+      "id": "quest_giver:kill",
+      "times": 3
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add slayer level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

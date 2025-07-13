@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Привіт."
+    },
+    "description": {
+      "text": "У мене і мого друга капелюхи трохи побиті. Ми хочемо зробити нові капелюхи... Не могли б ви дістати мені $(red) тюк соломи?"
+    }
+  }
+}

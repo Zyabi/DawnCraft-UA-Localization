@@ -1,0 +1,379 @@
+{
+	id: "3FBF22A12EB77153"
+	group: "0A520B482648497B"
+	order_index: 2
+	filename: "magic"
+	title: "Магія"
+	icon: "irons_spellbooks:mana_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Заклинання \\& Книги заклинань"
+			icon: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: 0.0d
+			description: ["Тут ви дізнаєтеся, як отримати магічні здібності, щоб поліпшити свої фізичні можливості, викликати істот або промовляти руйнівні заклинання на своїх ворогів!"]
+			size: 2.0d
+			id: "43BE75F09C4043F8"
+			tasks: [{
+				id: "089777A5C1B95D8D"
+				type: "checkmark"
+				title: "Зрозуміло!"
+			}]
+		}
+		{
+			title: "Лутання Магічних Споруд"
+			icon: {
+				id: "irons_spellbooks:magehunter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.25d
+			y: 1.5d
+			description: [
+				"Перші етапи вашого магічного щоденника починаються з пошуку магічних споруд, лутання їхніх скринь і, можливо, подолання магів, які там мешкають."
+				"\\nЦе буде вашим основним джерелом сувоїв, які дозволять вам почати чаклувати!"
+			]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			size: 1.5d
+			id: "0614C37C1534939E"
+			tasks: [{
+				id: "21D7529F64458A1B"
+				type: "checkmark"
+				title: "Почув тебе рідний!"
+			}]
+		}
+		{
+			title: "Книги заклинань"
+			icon: {
+				id: "irons_spellbooks:legendary_spell_book"
+				Count: 1b
+				tag: {
+					ISB_spellbook: {
+						spells: [ ]
+						activeSpellIndex: -1
+						spellSlots: 12
+					}
+				}
+			}
+			x: -2.5d
+			y: -2.0d
+			description: ["Сувої можна використовувати тільки один раз, після чого вони зникають. Щоб повною мірою використовувати сувої, найкраще зберігати їх у книзі заклинань. Почніть з виготовлення тонкого щоденника!\\n\\n(Якщо ваш клас — астролог, пропустіть цей крок)"]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "1F327242C2CCCF3C"
+			tasks: [{
+				id: "5AFA2C0E12D601FD"
+				type: "checkmark"
+				title: "Добре!"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["Стіл для написів дозволяє почати розміщувати сувої у вашій книзі заклинань. Однак, зверніть увагу, що сувої можна розміщувати ТІЛЬКИ у книгах заклинань такої ж або вищої рідкості!"]
+			dependencies: ["1F327242C2CCCF3C"]
+			id: "39BD15E37DD2B01C"
+			tasks: [{
+				id: "069021CAEE611130"
+				type: "item"
+				item: "irons_spellbooks:inscription_table"
+				consume_items: false
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "364D3C4B4475BC0D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			description: ["Окрім лутання споруд, виготовлення сувоїв є гідною альтернативою для їх отримання. Матеріали для виготовлення сувоїв можна знайти в Пеклі.\\n\\nВикористовуйте панель пошуку у вашому інвентарі, щоб знайти різні рецепти сувоїв! Зверніть увагу, що можна виготовляти лише сувої 1 рівня. Підвищення рівнів сувоїв можливе пізніше."]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			id: "5178B560C8B827E3"
+			tasks: [{
+				id: "56950BA8A3BB0936"
+				type: "item"
+				item: "irons_spellbooks:scroll_forge"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Початковий набір для Чарівника"
+			icon: {
+				id: "irons_spellbooks:wandering_magician_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			description: ["Найкращим початковим спорядженням для мага буде набір «Мандрівний маг»(Wandering Magician Set), для виготовлення якого потрібен ковальський стіл."]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "4E54C208CEF187D1"
+			tasks: [{
+				id: "63C62CE5AFA476B1"
+				type: "checkmark"
+				title: "Ага"
+			}]
+		}
+		{
+			title: "Удосконалене Спорядження Чарівника"
+			icon: {
+				id: "irons_spellbooks:pyromancer_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Крім спорядження «Мандрівний маг», маги можуть виготовляти спеціальне спорядження для певних елементів, яке підвищує здатність до використання заклинань цих елементів."
+				"\\nЩоб виготовити це спеціальне спорядження, маги повинні отримати рунічні камені елементів. Для виготовлення цих рунічних каменів іноді потрібні ритуали. Скористайтеся функцією пошуку рецептів, щоб обміркувати це!"
+			]
+			dependencies: ["4E54C208CEF187D1"]
+			id: "1EE082F0F108BFBA"
+			tasks: [{
+				id: "21F74BED3827CB09"
+				type: "checkmark"
+				title: "Cool!"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["Один з найважливіших матеріалів для створення магічних предметів. Можна отримати тільки шляхом грабування та вбивання магів."]
+			dependencies: ["0614C37C1534939E"]
+			id: "4CEED19552F9272D"
+			tasks: [{
+				id: "04C0D0354D3DFBA3"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Прокачка Вашого Спорядження"
+			icon: {
+				id: "irons_spellbooks:pumpkin_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Щоб покращити своє спорядження, вам знадобляться сфера покращення та таємниче ковадло. Рецепт виготовлення сфери покращення може бути дорогим, а найскладнішими для придбання предметами є таємничий утиль та есенція попелу."
+				"\\n"
+				"Ви можете покращити предмет спорядження мага до 3 разів. Різні сфери покращення надають різні бонуси до характеристик, такі як підвищення елементал шкоди або збільшення мани."
+			]
+			dependencies: [
+				"1EE082F0F108BFBA"
+				"5C76F132FD8587F9"
+				"607E8D1ADA6ED3A0"
+			]
+			id: "37B5F30D3F4B99F6"
+			tasks: [{
+				id: "3BE9AFC332C9476E"
+				type: "checkmark"
+				title: "Окей!"
+			}]
+			rewards: [{
+				id: "56DD80B6574EC6C2"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			description: ["Основа для виготовлення всіх інших рун. Можна знайти в магічних спорудах або у магів, які мешкають у цих спорудах."]
+			dependencies: ["0614C37C1534939E"]
+			id: "49B1AA2C35454C74"
+			tasks: [{
+				id: "1B902538D23196EB"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Пошук Короля Мертвих"
+			x: -0.7d
+			y: 1.4d
+			description: [
+				"Король Мертвих — це могутня нежить, яка мешкає у своїх катакомбах глибоко під землею. Єдиний спосіб знайти його — це виготовити і слідувати за примхливим компасом."
+				"\\nЦей скелет використовує потужні заклинання, щоб відбивати нападників на гробниці. Не намагайтеся, якщо ви не повністю готові! З іншого боку, якщо ви зможете поховати його, нагорода буде більш ніж задовільною... Це може навіть підняти вашу магічну подорож на новий рівень!"
+			]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.4d
+			id: "73A2334F5E27719A"
+			tasks: [{
+				id: "45DD5B0FAD17B43A"
+				type: "item"
+				item: {
+					id: "irons_spellbooks:wayward_compass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Древнє Поле бою"
+			icon: {
+				id: "mutantmonsters:mutant_skeleton_skull"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.3d
+			y: 2.6d
+			description: ["Древнє поле бою можна знайти в Пеклі. Ви можете оживити Древніх Лицарів, видобуваючи купки обладунків за допомогою кайла."]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.3d
+			id: "28F664AE3CBA9E87"
+			tasks: [{
+				id: "04B7F97553E6079A"
+				type: "checkmark"
+				title: "Моторошно..."
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["Компонент, необхідний для створення кулі покращення. Можна отримати ТІЛЬКИ, здолавши Древніх Лицарів на Древньому Полі Бою."]
+			dependencies: ["28F664AE3CBA9E87"]
+			id: "0CFC93A854B6EBE1"
+			tasks: [{
+				id: "3727B06E2FE205B4"
+				type: "item"
+				item: "irons_spellbooks:cinder_essence"
+			}]
+			rewards: [{
+				id: "155E77020EC84993"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				count: 4
+			}]
+		}
+		{
+			title: "Отримання Сувоїв"
+			icon: "ob_core:scroll_primitive_rites"
+			x: -5.25d
+			y: 0.0d
+			description: ["Є два основних способи отримання сувоїв."]
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.5d
+			id: "5D6F2EF2A0FABB1E"
+			tasks: [{
+				id: "4DB549B82B05387F"
+				type: "checkmark"
+				title: "Покажи мені!"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["Використовується для поліпшення сувоїв і обладнання, та наділення зброї властивостями."]
+			dependencies: ["39BD15E37DD2B01C"]
+			id: "5C76F132FD8587F9"
+			tasks: [{
+				id: "65079F0A627BA537"
+				type: "item"
+				item: "irons_spellbooks:arcane_anvil"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["Базова сфера для покращення вашого спорядження. Для використання її потрібно наділити рунами."]
+			dependencies: ["0CFC93A854B6EBE1"]
+			id: "607E8D1ADA6ED3A0"
+			tasks: [{
+				id: "450C6924ABAA82D0"
+				type: "item"
+				item: "irons_spellbooks:upgrade_orb"
+			}]
+		}
+		{
+			title: "Унікальні Реліквії \\& Книги заклинань"
+			icon: "irons_spellbooks:emerald_stoneplate_ring"
+			x: -6.8d
+			y: -2.55d
+			description: ["На кожному етапі своїх пригод не забувайте звертати увагу на кільця, унікальні книги заклинань, іменні книги заклинань та магічні ресурси!"]
+			hide_dependency_lines: true
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.7d
+			id: "142D6C7E522A3208"
+			tasks: [{
+				id: "128B025C180FB6B2"
+				type: "checkmark"
+				title: "Awesome!"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["Необхідний компонент для створення сувою. Можна знайти в магічних спорудах або у могутніх магічних істот."]
+			dependencies: ["0614C37C1534939E"]
+			id: "4200E32F0492E2E3"
+			tasks: [{
+				id: "58DEDE820A0E14A3"
+				type: "item"
+				item: "irons_spellbooks:common_ink"
+			}]
+		}
+		{
+			title: "Створення Вашого Першого Сувою"
+			icon: {
+				id: "irons_spellbooks:scroll"
+				Count: 1b
+				tag: {
+					ISB_spell: {
+						type: 1
+						level: 1
+					}
+				}
+			}
+			x: -7.5d
+			y: 4.0d
+			description: ["Маючи чорнило і сувій, ви готові створити свій перший сувій!"]
+			dependencies: [
+				"5178B560C8B827E3"
+				"4200E32F0492E2E3"
+			]
+			id: "55DE5FDCFC67E4A2"
+			tasks: [{
+				id: "454D6DA7C5585A1B"
+				type: "checkmark"
+				title: "Дякую!"
+			}]
+			rewards: [{
+				id: "62DD7A9F0FD11783"
+				type: "item"
+				item: "irons_spellbooks:magic_cloth"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

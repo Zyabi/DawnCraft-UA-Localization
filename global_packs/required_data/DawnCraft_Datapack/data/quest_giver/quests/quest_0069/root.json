@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Шукач пригод, у мене для тебе невеличке завдання, якщо ти готовий."
+    }
+  }
+}

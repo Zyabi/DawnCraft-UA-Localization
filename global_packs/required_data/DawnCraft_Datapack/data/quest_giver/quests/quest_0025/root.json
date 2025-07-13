@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Завдання на знищення"
+    },
+    "description": {
+      "text": "Шукач пригод... Зацікавлені у винищувальному завданні?"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Заточка ножів"
+    },
+    "description": {
+      "text": "Ви вже отримали камені $(red)5 глиняного шиферу $()? Моє лезо тупиться."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Готово."
+    },
+    "description": {
+      "text": "Молодці! Як і очікувалося, ці породи містять як грубу, так і дрібну зернистість. Дуже дякую! Ось, візьміть, це ваша винагорода."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

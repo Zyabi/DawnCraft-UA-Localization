@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_02",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Шлях до Володарів Ока"
+    },
+    "description": {
+      "text": "Бачите мапу, яку я вам дав? Ваше перше завдання - знищити $(червоного) Короля Гоблінів$(). Їх можна знайти на дахах їхніх замків."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Шлях до Володарів Ока"
+    },
+    "description": {
+      "text": "Браво. Здається, ви готові до битви з $(red)Зіпсованим Огром$(). Тут істота, що мешкає у позначеному місці, тримає одне з Очей."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "goblinsanddungeons:goblin_crown"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:ogre_dwelling \"Main Quest - Corrupted Ogre's Dwelling\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster1",
+      "id": "quest_giver:command"
+    },
+     {
+      "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

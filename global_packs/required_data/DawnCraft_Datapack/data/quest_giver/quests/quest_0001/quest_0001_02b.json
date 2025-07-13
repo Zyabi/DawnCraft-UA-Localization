@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0001_01",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Якщо подумати..."
+    },
+    "description": {
+      "text": "Якщо подумати... Є спосіб, як я можу тобі віддячити. Принеси мені аркуш паперу, я намалюю тобі карту."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0098_01b",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "І що?"
+    },
+    "description": {
+      "text": "Ви вже перемогли сухопутного голема і отримали його $(red) око голема?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "О, Боже! Це одна з найбільш захоплюючих речей, які я коли-небудь бачив. Це більше, ніж я міг собі уявити. Ось, візьміть ці червоні камінці як плату. Вибачте, але у мене зараз немає смарагдів."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "ba_bt:guardian_eye_land"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:item",
+      "times": 32
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

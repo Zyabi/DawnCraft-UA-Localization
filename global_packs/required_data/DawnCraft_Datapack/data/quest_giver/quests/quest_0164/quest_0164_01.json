@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Нездійсненне завдання!"
+    },
+    "description": {
+      "text": "Продемонструйте свою готовність, виконавши два завдання: Здобути лялечку мурашки-листоїда, яку можна покласти на землю, щоб заснувати колонію мурашок-листоїдів. І побудуйте замок з піску, щоб захистити черепашачі яйця. Тоді, і тільки тоді, я дам вам цю зброю."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Вітаю! А ось і він. Вплив Шулка перетворив зброю до невпізнання, повністю поглинувши її первісну форму."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "ecologics:husbandry/sandcastle"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:moonless"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

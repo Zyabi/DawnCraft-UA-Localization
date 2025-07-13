@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0052_01b",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "І що?"
+    },
+    "description": {
+      "text": "Вже забув? Не хвилюйся, я тобі нагадаю. Мені потрібен тюк $(red) соломи$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Солом'яний тюк! Тепер ми можемо зробити собі нові солом'яні капелюхи! Дякую, незнайомцю."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:straw_bale"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

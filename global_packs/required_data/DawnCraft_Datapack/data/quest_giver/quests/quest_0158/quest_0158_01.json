@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Нездійсненне завдання!"
+    },
+    "description": {
+      "text": "Перед вами два завдання: Вбити будь-яку істоту в радіусі 100 кварталів орлом у капюшоні та нагодувати свиню ферментованим оком павука, а потім кинути в неї Хімікат Ікс. Виконайте їх, і я подумаю над тим, щоб довірити вам Муки."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Молодець! А ось і він. Його колишній господар був грізним воїном-свинопасом."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/bald_eagle_challenge"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "mutantmonsters:spider_pig_spider_pig"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:tormented_mind"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

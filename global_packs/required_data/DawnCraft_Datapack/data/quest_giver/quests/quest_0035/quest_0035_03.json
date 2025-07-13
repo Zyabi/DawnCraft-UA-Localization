@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0035_03b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Запал"
+    },
+    "description": {
+      "text": "Льодовий меч $(light_blue)Chilling Sword$(). Дайте мені знати, якщо знайдете його в попелястому замку."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Готово."
+    },
+    "description": {
+      "text": "Тож... його справді немає. Дякую, що заспокоїв мене. Залиш собі меч. Мені більше нічим тобі віддячити."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:diamond_sword",
+        "forge:nbt": "{CustomModelData:1450003,incendium:{item:'chilling_blade'}}"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

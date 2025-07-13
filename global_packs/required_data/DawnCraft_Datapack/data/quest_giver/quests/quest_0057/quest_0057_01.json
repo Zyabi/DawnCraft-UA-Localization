@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0057_01b",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Виготовлення вудки"
+    },
+    "description": {
+      "text": "Ви отримали $(red)вудку$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дякую, я не маю що вам дати. Візьміть тріску, вона свіжа."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:fishing_rod"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:cod"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

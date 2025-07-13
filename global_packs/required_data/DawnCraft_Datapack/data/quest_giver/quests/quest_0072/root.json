@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Привіт. Хочеш поговорити?"
+    }
+  }
+}

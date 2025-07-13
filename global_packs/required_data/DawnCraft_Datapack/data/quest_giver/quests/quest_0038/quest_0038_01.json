@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0038_01b",
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Розвідка!"
+    },
+    "description": {
+      "text": "Поверніться до мене, коли закінчите мандрівку цими 3 біомами: Стародавній пісок, Вулканічні вершини, Біла меза"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Готово."
+    },
+    "description": {
+      "text": "Дякую за детальні пояснення. Думаю, я зможу намалювати їх за вашим описом. Ось, візьміть свою винагороду."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:traveller"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

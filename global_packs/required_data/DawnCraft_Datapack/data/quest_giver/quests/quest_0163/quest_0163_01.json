@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Нездійсненне завдання!"
+    },
+    "description": {
+      "text": "Щоб отримати цю зброю, ви повинні спочатку проявити себе, виконавши два завдання: Змайструвати блок \"Полтергейст\" та захопити крихітний бловіатор у пляшці."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Чудова робота! А ось і Гезец та Гершер. Наповнені силою океану, вони володіють унікальними синергетичними здібностями, коли працюють у тандемі."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "biomemakeover:biomemakeover/poltergeist"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "cloudstorage:cloudstorage/angry_cloud_in_a_bottle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:herrscher"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "wom:gesetz"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

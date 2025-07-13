@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0054_01",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "І що?"
+    },
+    "description": {
+      "text": "Дайте мені знати, якщо ви можете зробити для нас $(red) 2 буханці хліба $(). Але не поспішайте!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дуже вам дякую! Будь ласка, прийміть це, це небагато, але це все, що я можу собі дозволити на даний момент."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:bread"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

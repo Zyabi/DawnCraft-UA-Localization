@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Запит на отримання"
+    },
+    "description": {
+      "text": "Чи могли б ви допомогти мені дістати 4 мішечки з чорнилом кальмара?"
+    }
+  }
+}

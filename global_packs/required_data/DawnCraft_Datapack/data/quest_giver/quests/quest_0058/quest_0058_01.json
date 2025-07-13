@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0058_01b",
+  "reputation": 15,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Запит на полювання"
+    },
+    "description": {
+      "text": "(*Ви розумієте, що акули нападають не так; і що лише деякі з найбільш пасивних видів акул, такі як $(red) акула-молот, випускають зуби перед смертю. Але ви вирішили промовчати*)"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Хахахаха.... Я вигравію ім'я моєї сестри на цій штуці і носитиму її як кулон. Дякую, шукач пригод, ось твоя винагорода."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:shark_tooth"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:salmon"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

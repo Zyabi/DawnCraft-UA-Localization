@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Доброго дня, добродію. Чи можу я зацікавити вас торгівлею?"
+    }
+  }
+}

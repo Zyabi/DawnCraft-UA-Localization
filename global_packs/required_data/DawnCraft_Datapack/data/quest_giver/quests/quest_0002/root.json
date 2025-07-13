@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Маєте хвилинку?"
+    },
+    "description": {
+      "text": "Маєте хвилинку? Мандрівнику, ти можеш принести мені дещо?"
+    }
+  }
+}

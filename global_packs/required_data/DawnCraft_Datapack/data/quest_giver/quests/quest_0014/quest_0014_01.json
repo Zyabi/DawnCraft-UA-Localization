@@ -1,0 +1,45 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:enchanted_book",
+	"start": {
+		"title": {
+			"text": "Перше Завдання"
+		},
+		"description": {
+			"text": "Поверніться після того, як виконаєте вимоги - $(red)Вбити 10 розбійників$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Перше Завдання"
+		},
+		"description": {
+			"text": "Ось, використовуйте їх, щоб отримати перший апгрейд від $(green) статуй богинь$()! Я б рекомендував поговорити з деякими охоронцями, якщо ви хочете навчитися якимось новим навичкам. Щасти вам у вашій подорожі."
+		}
+	},
+	"tasks": [{
+		"entity": "minecraft:pillager",
+		"id": "quest_giver:kill",
+		"times": 10
+	}],
+	"rewards": [{
+		"item": {
+			"item": "paraglider:spirit_orb"
+		},
+		"id": "quest_giver:item",
+		"times": 4
+		},
+		{
+			"command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"Main Quest - Goblin King's Keep\"",
+			"id": "quest_giver:command"
+		}, 
+        {
+          "command": "/loot give @p loot minecraft:guildmaster0",
+          "id": "quest_giver:command"
+        },
+        {
+           "command": "/gamestage add @p guildmaster2 true",
+            "id": "quest_giver:command"
+        }]
+}

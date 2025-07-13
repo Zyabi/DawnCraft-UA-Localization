@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Привіт, не могли б ви допомогти мені отримати $(red)5 павучих очей$()?"
+    }
+  }
+}

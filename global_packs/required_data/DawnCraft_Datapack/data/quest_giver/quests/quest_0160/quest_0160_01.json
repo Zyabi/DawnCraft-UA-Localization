@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Нездійсненне завдання!"
+    },
+    "description": {
+      "text": "Перш ніж я довірю вам ендербластери, ви повинні виконати два завдання, щоб довести свою цінність: Знищити Трубопровідного Вартового з пекельних дюн Недеру та зрізати повністю зрілу грибну колонію. Майте на увазі, що для цього вам потрібно буде розробити багатий ґрунт."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Вітаю! А ось і він. Цей бластер забезпечує потужний удар, наповнений масивним джерелом енергії."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "incendium:infernal_dunes/pipeline/kill_sentry"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "farmersdelight:main/get_mushroom_colony"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ender_blaster"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Добрий день, молодий чоловіче, чи не могли б ви мені допомогти?"
+    }
+  }
+}

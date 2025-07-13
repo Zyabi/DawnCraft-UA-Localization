@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Чи можете ви дати мені $(red)1 Spore Blossom$(), якщо натрапите на нього?"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "quest_giver:quest_0046_01b",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Привіт."
+    },
+    "description": {
+      "text": "Здається, ви ще не закінчили свій контракт. Чи ви забули, що у вас за контракт? Перемогти $(red)2 срібних звірів$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ось."
+    },
+    "description": {
+      "text": "Ти молодець. Я відчуваю, як злі сили ненадовго зупиняють свій наступ. Але їхнє завоювання ніколи не закінчиться, зверніться до мене знову, якщо бажаєте укласти новий контракт."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "bloodandmadness:silverbeast",
+      "id": "quest_giver:kill",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

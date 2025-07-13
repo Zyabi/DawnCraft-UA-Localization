@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Шукач пригод, будь ласка, допоможи мені. Благаю тебе."
+    }
+  }
+}

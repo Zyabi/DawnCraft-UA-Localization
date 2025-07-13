@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Ендер Гардіан охороняє дуже важливий предмет. Хочеш дізнатися, де він знаходиться?"
+    }
+  }
+}

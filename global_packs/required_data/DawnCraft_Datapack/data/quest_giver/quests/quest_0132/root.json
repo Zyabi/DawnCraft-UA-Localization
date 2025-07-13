@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Здрастуйте! Я можу навчити тебе навичкам за 13 смарагдів."
+    }
+  }
+}

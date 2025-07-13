@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "І що?"
+    },
+    "description": {
+      "text": "Вибачте за нечіткий опис... Але справа в тому, що я не знаю, де знаходиться ця споруда і як вона виглядає. Це сільський замок з хитромудрими штучками, думаю, ви зрозумієте, коли побачите його."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Це захоплююче! Але я не думаю, що ці селяни самі його будували, у них немає з собою інженера... Хтось їх там тримає. У будь-якому випадку, дуже дякую. Ось печиво."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:castle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

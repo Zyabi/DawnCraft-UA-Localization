@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0001_02b",
+  "reputation": 5,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "Знову вітаю!"
+    },
+    "description": {
+      "text": "Знову вітаю! Ти вже приніс мені газету? Я хочу намалювати тобі карту."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ось."
+    },
+    "description": {
+      "text": "Ось тут. Є будинок, заражений цими хворими і ошуканими мисливцями... Один з моїх хороших друзів відстежив їхнє місцезнаходження і позначив його на цій карті. Я впевнений, що вони накопичують трофеї, які здобули у своїх ворогів... Вбийте їх і заберіть їхні трофеї. Якщо зможете, пошукайте намисто, яке вони вкрали у мене. Вони люблять ховати речі під столом. Спробуйте його знайти, я зроблю все можливе, щоб віддячити вам, якщо ви повернете мені це намисто!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:armorer_dungeon \"Armorer's Request\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p armorer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Дізнайтеся, як користуватися картографічним столом"
+    },
+    "description": {
+      "text": "О... гаразд. Дай мені 15 смарагдів, і я навчу тебе, як ним користуватися."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ось, будь ласка."
+    },
+    "description": {
+      "text": "Не лякайтеся обладнання на столі, ви швидко звикнете!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

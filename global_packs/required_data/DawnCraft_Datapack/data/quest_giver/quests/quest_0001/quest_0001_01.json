@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Принеси мені щось!"
+    },
+    "description": {
+      "text": "Привіт! Ти вже приніс мені $(red)4 залізні злитки$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Дякую! Тепер я нарешті зможу виготовити обладунки для того охоронця... Він не переставав про це говорити! Зараз я не маю нічого, щоб тобі віддячити, але обіцяю, що колись я тобі віддячу!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

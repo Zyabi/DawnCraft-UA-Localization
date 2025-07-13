@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:emerald",
+  "start": {
+    "title": {
+      "text": "Готово!"
+    },
+    "description": {
+      "text": "О? Ви вже перемогли власника ока до того, як я дав мапу? Покажіть мені те саме око, яке Володар Ока втратив. Насправді, киньте його і підніміть назад ... Не питайте чому!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Кінець Шляху"
+    },
+    "description": {
+      "text": "Я не маю більше нічого, що б міг вам дати, мій друже. Ідіть за своїм покликом."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ]
+}

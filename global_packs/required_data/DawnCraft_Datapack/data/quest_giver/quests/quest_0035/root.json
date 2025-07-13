@@ -1,0 +1,12 @@
+{
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Привіт."
+    },
+    "description": {
+      "text": "Ей, ти! Допоможіть мені, будь ласка."
+    }
+  }
+}

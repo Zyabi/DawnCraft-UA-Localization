@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:ancient_debris",
+  "start": {
+    "title": {
+      "text": "Прибирання сміття"
+    },
+    "description": {
+      "text": "Ви вже дістали до рук $(red) стародавній уламок$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Це... це дивовижно! Ось, візьми мої смарагди."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ancient_debris"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

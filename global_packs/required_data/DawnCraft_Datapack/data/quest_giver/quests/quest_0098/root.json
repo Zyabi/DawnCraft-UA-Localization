@@ -1,0 +1,12 @@
+{
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Привіт, шукач пригод, чи можеш ти мені чимось допомогти?"
+    }
+  }
+}

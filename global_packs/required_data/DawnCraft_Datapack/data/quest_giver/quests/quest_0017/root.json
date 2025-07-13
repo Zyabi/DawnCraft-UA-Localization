@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Можеш дістати мені $(red)1 Soul Weed$()? Її можна знайти в Нижньому вимірі."
+    }
+  }
+}

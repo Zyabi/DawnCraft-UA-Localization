@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Гей, хлопче, можеш дістати мені шматок $(red) Frostbright Log$()? Його можна знайти у вимірі Евербрайта."
+    }
+  }
+}

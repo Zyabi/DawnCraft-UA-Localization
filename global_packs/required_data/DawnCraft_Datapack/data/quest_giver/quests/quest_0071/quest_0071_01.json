@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Отримання дорогоцінної речі"
+    },
+    "description": {
+      "text": "Будь ласка, дайте мені аркуш паперу, щоб я міг намалювати вам карту."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ось."
+    },
+    "description": {
+      "text": "Вибачте за клопіт. Ось місце, куди я хочу, щоб ви пішли. Там є книга, яка належала мені. Колись це місце було храмом, наповненим вченими з усього виміру, але я не знаю, як воно зараз. Будь ласка, дійте обережно і принесіть мені мою книгу."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:librarian_ruin \"Librarian's Request\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p librarian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

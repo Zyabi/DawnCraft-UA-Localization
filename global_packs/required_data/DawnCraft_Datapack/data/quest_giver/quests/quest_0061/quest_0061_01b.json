@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Виготовлення стріл"
+    },
+    "description": {
+      "text": "Мені не вистачає пір'я для виготовлення стріл. Чи можеш ти принести мені $(red)2 feathers$()? Я можу дати тобі кілька стріл після того, як закінчу."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:crossbow",
+  "start": {
+    "title": {
+      "text": "Добровільне вигнання"
+    },
+    "description": {
+      "text": "У мене для вас побічне завдання: Перемогти капітана мародерів! Не забудьте випити молока перед поверненням... Я вб'ю тебе, якщо ти приведеш цих набридливих мародерів до нас!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Добровільне вигнання: Завершено"
+    },
+    "description": {
+      "text": "Молодець. Зачекай... Ти випив молоко, так?"
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "minecraft:adventure/voluntary_exile"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "quest_giver:item",
+      "item": {
+        "item": "minecraft:emerald",
+        "count": 2
+      }
+    }
+  ]
+}

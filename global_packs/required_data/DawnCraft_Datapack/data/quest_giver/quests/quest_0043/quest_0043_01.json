@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "І що?"
+    },
+    "description": {
+      "text": "10 смарагдів і я навчу вас користуватися картографічною таблицею."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Тримай."
+    },
+    "description": {
+      "text": "Нехай вас не лякає обладнання на столі, у вас все вийде!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

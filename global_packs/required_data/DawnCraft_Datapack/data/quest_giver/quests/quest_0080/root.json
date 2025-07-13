@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Добрий день, не могли б ви дати мені ножиці? Мої щойно зламалися."
+    }
+  }
+}

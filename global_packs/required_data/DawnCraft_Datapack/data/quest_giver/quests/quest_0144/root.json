@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Я можу навчити експертній майстерності за низьку ціну. Що скажеш?"
+    }
+  }
+}

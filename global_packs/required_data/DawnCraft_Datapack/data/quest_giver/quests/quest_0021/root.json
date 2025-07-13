@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:heart_of_the_sea",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Привіт, шукач пригод. Чи не міг би ти принести мені щось з Океану?"
+    }
+  }
+}

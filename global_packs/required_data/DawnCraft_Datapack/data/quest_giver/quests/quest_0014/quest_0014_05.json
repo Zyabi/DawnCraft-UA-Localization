@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Шлях до Володарів Ока"
+    },
+    "description": {
+      "text": "У нас дуже мало інформації про лицаря Робера в його нинішньому стані, але він повинен бути досить ослаблений після останньої війни... О, не забудьте принести перли Ендера. У нього є неприємний напад, від якого можна врятуватися лише за допомогою телепортації."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Шлях до Володарів Ока"
+    },
+    "description": {
+      "text": "Ого, ти переміг лицаря Робера. Він був сильним? Колись він був одним з найстрашніших супротивників, з яким можна було зіткнутися на дуелі, мабуть, його вік нарешті взяв своє. Що ж, наступний Володар Ока - інша людина. Зараз він мирно живе у своєму фермерському будинку... Ось його місцезнаходження."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:ninetail_farm \"Main Quest - Ninetail's Farm\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster5 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Я маю розповісти дивну історію... чи вислухаєш ти мене, шукач пригод?"
+    }
+  }
+}

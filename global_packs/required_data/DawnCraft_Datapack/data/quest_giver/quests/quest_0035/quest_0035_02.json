@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Запал"
+    },
+    "description": {
+      "text": "Пам'ятайте, Попелясті пустки в Пеклі. Приходьте до мене після того, як побуваєте там."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Готово."
+    },
+    "description": {
+      "text": "Це захоплююче... Дякую, що розповіли мені про це місце. Ось твоя винагорода. Ну, тепер можеш йти... Мені треба ухвалити важливе рішення."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

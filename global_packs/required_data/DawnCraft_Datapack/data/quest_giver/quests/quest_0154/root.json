@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Якщо ви хочете дізнатися, як здивувати свого ворога, я знаю, як це зробити..."
+    }
+  }
+}

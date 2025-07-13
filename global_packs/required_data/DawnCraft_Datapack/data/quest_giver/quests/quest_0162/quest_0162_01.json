@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Нездійсненне завдання!"
+    },
+    "description": {
+      "text": "Щоб отримати цю зброю, ви повинні спочатку проявити себе, виконавши два завдання: Виконати відьомський квест у відьомській хатині, а також заманити пуку подалі від решти і втихомирити її золотою морквою."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Дякую!"
+    },
+    "description": {
+      "text": "Чудова робота! Ось зброя. Незважаючи на свою легкість, вона приховує в собі значну смертоносність."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "habitat:husbandry/fae_whisperer"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "biomemakeover:biomemakeover/witch_quest"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:satsujin"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Стрілки з нахилом"
+    },
+    "description": {
+      "text": "Я намагаюся зробити стріли з наконечниками. Можеш дістати мені дюжину камінців?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Агов!"
+    },
+    "description": {
+      "text": "Чув, ти шукаєш нові бойові навички. Думаю, у мене є те, що тобі потрібно."
+    }
+  }
+}
